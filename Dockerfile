@@ -3,7 +3,7 @@ FROM jupyter/tensorflow-notebook
 USER root
 
 RUN apt update && apt upgrade -y && apt install git -y
-RUN pip install pillow tf-nightly-gpu-2.0-preview
+RUN pip install pillow tf-nightly-gpu-2.0-preview tensorflow-hub
 
 RUN git clone https://github.com/tensorflow/hub.git
 
