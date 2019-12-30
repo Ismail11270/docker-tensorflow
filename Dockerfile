@@ -8,4 +8,7 @@ RUN git clone https://github.com/tensorflow/hub.git
 
 EXPOSE 8888
 
-CMD jupyter notebook --allow-root
+# Switch back to jovyan(Jupyter Notebook User) to avoid accidental container runs as root.
+USER $NB_UID
+
+CMD jupyter notebook
