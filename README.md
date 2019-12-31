@@ -1,9 +1,10 @@
 <br/><br/><br/><br/><br/><br/><br/><br/>
-<h1 align=center>SaPCoCS Report</h1><br/><br/>
+<h1 align=center>Social and Professional Challenges of<br>
+Computer Science<br/><br/>Report</h1><br/><br/>
 <h2 align=center>Object detection algorithm with use of docker <br/>and Jupyter notebook</h2>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
   <h3>Author: Ismoil Atajanov</h3>
-  <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+  <br/><br/><br/><br/>
   
 ## Task description
 - The task was to run a object detection example from [Tensorflow Hub](https://github.com/tensorflow/hub.git) using Jupyter notebook running on a docker container.
