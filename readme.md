@@ -50,7 +50,7 @@ Computer Science<br/><br/>Report</h1><br/><br/>
 - Step 1. Build the docker image from the prepared Dockerfile and save it with "jupyter" tag. The dockerfile is based on tensorflow/notebook image with an addition tensorflow-hub and other components necessary to run tensorflow with Jupyter notebook. Then the [Tensorflow Hub](https://github.com/tensorflow/hub.git) is cloned into the container.
 
   ```console
-  docker build -t jupyter . 
+  docker build -t . jupyter . 
   ```
 - Step 2. Run the docker container named "jupyter" on port 8888. 
   ```console
